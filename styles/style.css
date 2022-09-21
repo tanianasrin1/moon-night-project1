@@ -1,3 +1,6 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -20,5 +23,16 @@ nav li a{
 
 nav li a:hover{
     color: rgb(55, 172, 226);
+}
+
+.backgroud-img{
+     background-image: url(/images/d.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+.header-div{
+    width: 200px;
+    height: 4px;
+    background-color: rgb(178, 201, 212);
 }
 
